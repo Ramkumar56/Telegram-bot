@@ -3,10 +3,10 @@ from telegram.ext import *
 from timeandtable import *
 
 
-bot=Bot("1636584404:AAES2UcLnb-Qfh3BxkGZvXKw5nPDe6pAlTM")
+bot=Bot("1636584404:AAH1RBSR7GAcl6YjmqSYQ8X4BRTugPUvPaw")
 #print(bot.get_me())
 
-updater=Updater("1636584404:AAES2UcLnb-Qfh3BxkGZvXKw5nPDe6pAlTM",use_context=True)
+updater=Updater("1636584404:AAH1RBSR7GAcl6YjmqSYQ8X4BRTugPUvPaw",use_context=True)
 
 dispatcher=updater.dispatcher
 
@@ -64,7 +64,7 @@ def test_function4(update:Update,context:CallbackContext):
 	bot.send_photo(
 	
 	        chat_id=update.effective_chat.id,
-	        photo="AgACAgUAAxkBAAOCYF2ae_rBlgfltRNpJe_-u-GITaIAAhGuMRtsJ-lW-szHh-QNPJ-9guxudAADAQADAgADeQADCSUDAAEeBA",
+	        photo="AgACAgUAAxkBAAOxYGIcQM5tGq1pvVi532R-XjlygM8AAv2qMRsCdRBXAlDDzd-W0nn30XtzdAADAQADAgADbQADOFEAAh4E",
 	        )
 	       
 start_value4=CommandHandler('ftt',test_function4)
