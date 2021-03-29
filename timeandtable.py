@@ -1,4 +1,4 @@
-from time1 import *
+from time import *
 c=['x','x']
 def changesat(h,j):
   if j=='1' or j=='2' or j=='3' or j=='4' or j=='5' or j=='x' and (h=='1' or h=='0' or h=='x'):
