@@ -3,7 +3,7 @@ from telegram.ext import *
 from timeandtable import *
 
 
-bot=Bot("1649812724:AAF_qLhkCyUF_5giRNJK5hKZieWBh3ssDb4")
+bot=Bot("1636584404:AAES2UcLnb-Qfh3BxkGZvXKw5nPDe6pAlTM")
 #print(bot.get_me())
 
 updater=Updater("1649812724:AAF_qLhkCyUF_5giRNJK5hKZieWBh3ssDb4",use_context=True)
