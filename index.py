@@ -106,7 +106,7 @@ def test_function7(update:Update,context:CallbackContext):
 	        text=nextcl(),
 	        )
 	       
-start_value7=CommandHandler('next',test_function)
+start_value7=CommandHandler('next',test_function7)
 
 dispatcher.add_handler(start_value7)
 
