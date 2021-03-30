@@ -114,7 +114,7 @@ def test_function8(update:Update,context:CallbackContext):
 	bot.send_photo(
 	
 	        chat_id=update.effective_chat.id,
-	        photo="AQADMyFNbHQAA4PUBwAB",
+	        photo="AgACAgUAAxkBAAMFYGL1JAAB-LVKOOcvWT_vZmNycLGKAAKVqzEbAnUQV6U4KNxmx0A1MyFNbHQAAwEAAwIAA3kAA4PUBwABHgQ",
 	        )
 	       
 start_value8=CommandHandler('test',test_function8)
