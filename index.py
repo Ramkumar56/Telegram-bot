@@ -110,6 +110,19 @@ start_value7=CommandHandler('next',test_function7)
 
 dispatcher.add_handler(start_value7)
 
+def test_function8(update:Update,context:CallbackContext):
+	bot.send_photo(
+	
+	        chat_id=update.effective_chat.id,
+	        photo="AQADMyFNbHQAA4PUBwAB",
+	        )
+	       
+start_value8=CommandHandler('test',test_function8)
+
+dispatcher.add_handler(start_value8)
+
+#print(bot.get_me())
+
 #print(bot.getme())
 
 updater.start_polling()
