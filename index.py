@@ -14,10 +14,10 @@ def test_function(update:Update,context:CallbackContext):
 	bot.send_message(
 	
 	        chat_id=update.effective_chat.id,
-	        text="Hello,Have a nice day",
+	        text="The last date to pay the Tution Fees for 2020-21 with fine - From 31.10.2020 to 14.11.2020 payment of tuition fee with a fine of Rs 1000/-",
 	        )
 	       
-start_value=CommandHandler('hi',test_function)
+start_value=CommandHandler('notify',test_function)
 
 dispatcher.add_handler(start_value)
 
