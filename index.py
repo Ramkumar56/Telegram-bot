@@ -111,7 +111,7 @@ start_value7=CommandHandler('next',test_function7)
 dispatcher.add_handler(start_value7)
 
 def test_function8(update:Update,context:CallbackContext):
-	bot.send_text(
+	bot.send_message(
 	
 	        chat_id=update.effective_chat.id,
 	        text="No test",
