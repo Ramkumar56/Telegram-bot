@@ -115,7 +115,7 @@ def test_function8(update:Update,context:CallbackContext):
 	
 	        chat_id=update.effective_chat.id,
 	        text="compiler design test 
-                      submit before tomorrow 12;30 ",
+                      submit before tomorrow 12 30 ",
 	        )
 	       
 start_value8=CommandHandler('test',test_function8)
