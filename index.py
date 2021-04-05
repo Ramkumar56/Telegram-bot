@@ -114,7 +114,8 @@ def test_function8(update:Update,context:CallbackContext):
 	bot.send_message(
 	
 	        chat_id=update.effective_chat.id,
-	        text="No test",
+	        text="compiler design test 
+                      submit before tomorrow 12;30 ",
 	        )
 	       
 start_value8=CommandHandler('test',test_function8)
